@@ -30,7 +30,6 @@ public class Persona extends BaseEntidad {
     private List<Domicilio> domicilios = new ArrayList<>();
 
     public void agregarDomicilio(Domicilio domi){
-
         domicilios.add(domi);
     }
 
